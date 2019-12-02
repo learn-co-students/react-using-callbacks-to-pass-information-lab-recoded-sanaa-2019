@@ -7,7 +7,7 @@ export default class Matrix extends Component {
 
   constructor() {
     super()
-  }
+  } 
 
   genRow = (vals) => (
     vals.map((val, idx) => <Cell key={idx} color={val} />)

@@ -7,7 +7,7 @@ export default class Cell extends Component {
     this.state = {
       color: this.props.color
     }
-  }
+  } 
   
   render() {
     return (
