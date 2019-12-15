@@ -8,6 +8,11 @@ export default class Cell extends Component {
       color: this.props.color
     }
   }
+  click=()=>{
+    this.setState({
+color:this.props.getselectedColor()
+    })
+  }
   
   render() {
     return (
